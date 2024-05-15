@@ -57,6 +57,7 @@ public class DB {
             }
         } 
     }
+    
     public static void closeResultSet(ResultSet resultSet) {
         if (resultSet != null) {
             try {
