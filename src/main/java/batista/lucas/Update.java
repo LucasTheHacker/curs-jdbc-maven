@@ -17,12 +17,13 @@ public class Update {
         try {
             conn = DB.getConnection();
 
-            st = conn.prepareStatement(
-                "UPDATE seller "
-                + "SET basesalary = basesalary + ? "
-                + "WHERE "
-                + "(name = ?)");
+             st = conn.prepareStatement(
+                 "UPDATE seller "
+                 + "SET basesalary = basesalary + ? "
+                 + "WHERE "
+                 + "(name = ?)");
 
+            
             st.setDouble(1, 20000);
             st.setString(2, "Fulano das Couves");
 
