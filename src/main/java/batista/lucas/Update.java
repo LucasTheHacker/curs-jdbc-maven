@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import batista.lucas.db.DB;
 import batista.lucas.db.DbException;
 
-public class UpdateSalary {
+public class Update {
 
     public static void main(String[] args) {
         

@@ -8,7 +8,7 @@ import java.sql.Statement;
 import batista.lucas.db.DB;
 import batista.lucas.db.DbException;
 
-public class Program {
+public class Select {
 
     public static void main(String[] args) {
 

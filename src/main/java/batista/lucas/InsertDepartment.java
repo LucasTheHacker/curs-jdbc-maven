@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 import batista.lucas.db.DB;
 
-public class Program2copy {
+public class InsertDepartment {
 
     public static void main(String[] args) {
 
@@ -25,7 +25,7 @@ public class Program2copy {
                 + "VALUES"
                 + "(?)"); //place holder
     
-        preparedStatement.setString(1, "E-Books trash");
+        preparedStatement.setString(1, "Revisao");
         
         int rowsAffected = preparedStatement.executeUpdate(); //retorna quantidade de linhas alteradas
 

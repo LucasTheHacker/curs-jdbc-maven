@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 
 import batista.lucas.db.DB;
 
-public class Program2 {
+public class InsertSeller {
 
     public static void main(String[] args) {
 
